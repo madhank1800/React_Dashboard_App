@@ -1,0 +1,131 @@
+.para {
+  padding: 2px 0px 0px 6px;
+}
+.con {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 5px;
+}
+ul li {
+  display: flex;
+  padding: 10px;
+}
+
+.DetailsPage {
+  /* Add media query for smaller screen sizes */
+  @media (min-width: 768px) {
+    width: calc(
+      100% - 211px
+    ) !important; /* Adjusted width for smaller screens, considering sidebar width */
+  }
+
+  @media (max-width: 600px) {
+    /* Adjusted width for smaller screens, considering sidebar width */
+    .titleName {
+      display: flex;
+      flex-grow: 1;
+
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 1.6;
+      letter-spacing: 0.0075em;
+      overflow: hidden;
+      /* text-overflow: ellipsis; */
+      white-space: nowrap;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .DetailsPage {
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (min-width: 767px) and( max-width:900px) {
+  .DetailsPage {
+    display: flex;
+
+    width: calc(100%) !important;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 992px) {
+  .DetailsPage {
+    display: flex;
+    width: 100%; /* Adjusted width for smaller screens, considering sidebar width */
+  }
+}
+
+@media (max-width: 600px) {
+  /* Adjusted width for smaller screens, considering sidebar width */
+  .DetailsPage .titleName {
+    display: flex;
+    flex-grow: 1;
+
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+  }
+}
+
+.gridRowClass {
+  flex-wrap: nowrap;
+  width: auto;
+  /* flex-wrap: nowrap; */
+}
+
+.outer-circle {
+  max-width: 250px;
+  max-height: 250px;
+
+  background-color: whitesmoke; /* Adjust the background color as needed */
+  border-radius: 50%; /* Creates the outer circle */
+
+  /* Center the inner circles */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.inner-circle {
+  width: 200px;
+  height: 200px;
+  background-color: blue; /* Adjust the background color as needed */
+  border-radius: 50%; /* Creates the inner circles */
+  margin: 10px;
+  background: linear-gradient(blue, red, white);
+  /* Adjust the spacing between inner circles */
+}
+.inner-circle1 {
+  /* Adjust the width as a percentage of the grid item width */
+
+  width: 150px;
+  height: 150px;
+
+  background-color: whitesmoke; /* Adjust the background color as needed */
+  border-radius: 50%; /* Creates the inner circles */
+  /* Adjust the spacing between inner circles */
+  margin: 25px; /* Center the inner circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-circle1 .content {
+  text-align: center;
+  color: black; /* Adjust the text color as needed */
+
+  font-weight: bold;
+}
