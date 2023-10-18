@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #ffff !important; 
 }
-.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
+/* .css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
   background-color: #131859 ;
   color: white;
 }
@@ -18,9 +18,7 @@ code {
 }
 .css-1vuxth3-MuiBarElement-root{
   fill: #E3E2FB !important;
-  /* shape-rendering: calc(1vw + 5px) !important; */
-  /* width: 40px !important; */
-  /* rx:5px !important */
+ 
 }
 .css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line ,.MuiChartsAxis-directionY,.MuiChartsAxis-tick {
   display: none;
@@ -33,4 +31,4 @@ code {
 .css-11lq3yg-MuiGrid-root{
    background-color: aliceblue!important;  
 }
-
+ */

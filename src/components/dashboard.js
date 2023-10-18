@@ -284,7 +284,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex" }} className={classes.bgColor}>
         <CssBaseline />
         <AppBar1
           position="fixed"
@@ -541,6 +541,7 @@ const Dashboard = () => {
                       borderRadius: "5px",
                       width: "auto",
                     }}
+                    className={classes.chartStyle}
                   >
                     <Grid container>
                       {" "}
@@ -575,6 +576,7 @@ const Dashboard = () => {
                           paddingRight: "30px",
                           backgroundColor: "white",
                         }}
+                       
                       >
                         <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
                           <InputLabel id="demo-select-small-label">
@@ -621,6 +623,7 @@ const Dashboard = () => {
                         },
                       ]}
                       // width={700}
+                      
                       height={300}
                     />
                   </Grid>

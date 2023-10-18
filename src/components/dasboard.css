@@ -129,3 +129,30 @@ ul li {
 
   font-weight: bold;
 }
+
+
+.css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper{
+  /* background-color: #131859 ;
+  color: white; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.css-1vuxth3-MuiBarElement-root{
+  /* fill: #E3E2FB !important; */
+ 
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line ,.MuiChartsAxis-directionY,.MuiChartsAxis-tick {
+  /* display: none; */
+}
+.css-2dum1v-MuiDrawer-docked .MuiDrawer-paper{
+  /* background-color:#242973!important ; */
+  
+}
+
+.css-11lq3yg-MuiGrid-root{
+   /* background-color: aliceblue!important;   */
+}
+
